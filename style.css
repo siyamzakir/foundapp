@@ -1,0 +1,1067 @@
+
+/*==============Default CSS==================*/
+/*==============Default CSS==================*/
+/*==============Default CSS==================*/
+html,
+body { height: 100% }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+h3 {
+    font-family: "Asap",sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+}
+ul, ll {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color:blue;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.foundApp-btn {
+    background-color: #1c61a8;
+    border: 0 none;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 135px;
+    margin: 10px 5px;
+}
+
+.foundApp-btn:hover {
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+}
+
+.foundApp-btn:hover {
+  color: #fff;
+  background-color: #1549BE;
+}
+.foundApp-btn:active, .foundApp-btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+.smallText {
+	color: #96ADAA;
+	font-weight: 400;
+    font-size: 12px;
+}
+/*==============Custom CSS==================*/
+/*==============Custom CSS==================*/
+/*==============Custom CSS==================*/
+/*==============Custom CSS==================*/
+
+
+
+/* ==============================================================
+							Header Area 
+================================================================= */
+.header {
+    background-image: url(img/hero-bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    width: 100%;
+}
+
+.mainmenu span {
+    color: #fff;
+}
+#header-top {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.is-sticky #header-top {
+    background-color: #333;
+    padding-top: 0px;
+}
+.is-sticky .logo img {
+  height: 40px;
+}
+.is-sticky .mainmenu span {
+  margin-top: -42px;
+}
+.is-sticky .opennav-right {
+  z-index: -1;
+  padding-top: 38px;
+}
+
+.is-sticky #header-top, .is-sticky .logo img, .is-sticky .mainmenu span {
+    transition: all 0.3s ease 0s;
+}
+
+
+.header-bottom {
+    color: #fff;
+    float: left;
+    padding: 120px 0 100px;
+}
+.header-bottom h2 {
+    font-family: "Asap",sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+}
+.modal-dialog {
+  margin: 30px auto;
+  max-width: 70%;
+}
+.modal-dialog {
+  margin: 100px auto;
+}
+
+.modal-dialog button span {
+  background: red none repeat scroll 0 0;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
+.divider, .dividerCenter, .dividerWhite, .dividerCenterWhite {
+  background-color: rgba(21, 129, 238, 1);
+  height: 2px;
+  margin: 1.5rem 0;
+  width: 60px;
+}
+
+.header-bttn {
+    padding: 50px 0 20px;
+}
+.video-btn:hover {
+    background-color: transparent;
+    border-left:10px solid white;
+}
+
+
+
+
+/*Side Nav Sec*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #F4F7F8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: blue;
+}
+
+.closebtn {
+    font-size: 36px !important;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    color: #333;
+}
+
+#main {
+    transition: margin-right .5s;
+    padding: 16px;
+}
+.opennav-right {
+    float: right;
+}
+.sidenav .socialIcons {
+    border-bottom: 1px solid #ddd;
+    float: left;
+    padding: 20px;
+    width: 100%;
+}
+.sidenav .socialIcons li {
+    text-align: left;
+    list-style: none;
+    float: left;
+    margin-bottom: 20px;
+}
+.sidenav .socialIcons a {
+   color: rgba(39, 49, 64, 1);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+.sidenav .socialIcons a .fa{
+  color: rgba(39, 49, 64, 1);
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.sidenav .vertical-menu {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid#ddd;
+}
+.sidenav .vertical-menu li {
+    display: block;
+    float: none;
+    list-style: outside none none;
+    padding: 10px 0;
+    text-align: left;
+}
+.sidenav .vertical-menu a {
+    color: rgba(39, 49, 64, 1);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+}
+.vertical-menu a:hover {
+  color: blue;
+  transition: all ease 0.5s;
+  font-weight: bold;
+}
+.vertical-menu .download a {
+     color: blue;
+}
+.download span {
+    float: right;
+}
+
+.sidenav-contacts p {
+   color: rgba(39, 49, 64, 1);
+    margin: 0;
+    padding: 0 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+/* ==============================================================
+							Clients Area 
+================================================================= */
+.clients-area {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+
+.download-counters {
+    padding: 0;
+    border-right: 1px solid#ddd;
+    line-height: 40px;
+    float: left;
+    padding-right: 10px;
+}
+.clients-picture { 
+	margin-bottom: 0;
+	opacity: 0.6;
+    max-width: 100%;
+}
+.clients-list {
+    padding: 0;
+}
+.clients-list li{
+    float: left;
+    max-width: 15%;
+    
+}
+.clients-area .divider{
+    margin: 0;
+}
+.clients-area img{
+    max-width: 80%;
+}
+/* ==============================================================
+							Show Area 
+================================================================= */
+.showApps-area {
+    width: 100%;
+    float: left;
+}
+
+.show-left-sec {
+  margin-top: 50px;
+}
+.show-list {
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.show-list li {
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.show-list li span {
+    display: block;
+    font-size: 60px;
+    left: 15px;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+/* ==============================================================
+							Outline Area 
+================================================================= */
+.outlineApps-area {
+    width: 100%;
+    float: left;
+}
+.outlineApps-left-sec {
+    
+}
+.outlineApps-right-sec {
+    margin-top: 50px;
+    text-align: justify;
+}
+.outlineApps-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid#ddd;
+}
+.outlineApps-list li:last-child {
+    border-bottom: 0;
+}
+.outlineApps-list li span {
+    display: block;
+    float: left;
+    padding: 30px 0;
+    width: 10%;
+}
+.outlineApps-list li span .fa {
+    font-size: 18px;
+    color: blue;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.outlineApps-list h6 {
+  margin: 10px;
+    font-size: 16px;
+}
+.outlineApps-list p {
+  color: rgba(39, 49, 64, 0.6);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+/* ==============================================================
+							Feature Area 
+================================================================= */
+.feature-area {
+    width: 100%;
+    float: left;
+    background-color: #273140;
+}
+
+.feature-text {
+    margin-top: 40px;
+}
+.feature-area h3 {
+  color: #fff;
+}
+.feature-area h5{
+    color: #fff;
+}
+
+.dividerWhite {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.feauture-button {
+    margin: 30px 0;
+}
+
+.feature-list li p{
+    font-weight: 400;
+    color: #8B9098
+}
+
+
+.feature-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+.feature-list li {
+    float: left;
+    padding: 10px 0;
+    width: 33%;
+    z-index: 1;
+    padding: 5px 15px;
+}
+
+.feature-list li {
+    width: 33%;
+    float: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.feature-list li span {
+    display: block;
+    font-size: 80px;
+    left: 15px;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: #111;
+}
+.feature-area .btn {
+  margin-top: 30px;
+}
+
+
+/* ==============================================================
+							Testimonial Area 
+================================================================= */
+.testimonial-area {
+    width: 100%;
+    float: left;
+    background-color: #F4F7F8;
+}
+.testimonial-top {
+    margin: 80px;
+    text-align: center;
+}
+
+.testimonial-divider {
+    margin: 0 auto;
+}
+
+.testimonial-top p {
+    margin-top: 20px;
+}
+
+.testimonial-content {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}.testimonial-content {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.testimonial-content ul {
+    padding: 0;
+    
+}
+.testimonial-content ul li {
+    float: left;
+    padding: 30px 30px;
+    width: 33%;
+    position: relative;
+}
+.testimonial-content ul li:before,
+.testimonial-content ul li:after,
+{
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+.testimonial-content ul li:before {
+    height: 100%;
+	top: 0;
+	left: -1px;
+	border-left: 1px solid red;
+}
+
+.testimonial-content ul li:after {
+    height: 100%;
+	top: 0;
+	left: -1px;
+	border-left: 1px solid red;
+}
+
+
+.testimonial-author img {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+.author-name {
+  float: left;
+    font-style: normal !important;
+    
+}
+.testimonial-item p {
+    display: block;
+    float: left;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+
+
+/* ==============================================================
+							Download App Area 
+================================================================= */
+.downloadApp-area {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(img/hero-bg1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.downloadApp-area::after {
+  background: rgba(21, 129, 238, 0.7) none repeat scroll 0 0;
+}
+.downloadApp-area h3 {
+    color: #fff;
+}
+.downloadApp-area p {
+    color: #f9f9f9;
+    margin: 25px 0;
+}
+.downloadApp-top {
+    text-align: center;
+}
+.downloadApp-divider {
+    margin: 0 auto;
+}
+.download-list {
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+.download-list li {
+    float: none;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.buttonWhite {
+    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(21, 129, 238, 1);
+}
+
+
+.btn.button-slide-up__button {
+    background-color: #1C61A8;
+    opacity: 1;
+    font-size: 13px;
+}
+.btn.button-slide-up__button:hover {
+    color: #fff;
+}
+.btn.button-slide-up__button:hover {
+   outline: none;
+    outline-color: transparent;
+}
+
+
+
+
+/* Download button effect CSS */
+
+.buton-cover {
+  position: relative;
+}
+
+.btn, .button-slide-out__above {
+  min-width: 120px;
+  border: none;
+  padding: 0 1em;
+  font-size: 12px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  background: none;
+  transition: background .3s ease;
+}
+
+.button-slide-out__above2{
+	 min-width: 50px;
+	} 
+
+.btn--primary {
+  background-color: #d65a57;
+}
+.btn--primary:hover {
+  background-color: #db6e6b;
+}
+
+.btn--gray {
+  background-color: darkgreen;
+    border-radius: 0;
+}
+.btn--gray:hover {
+  background-color: #8f8f8f;
+}
+
+.btn--gray-drk {
+  background-color: darkgreen;
+    border-radius: 0;
+}
+.btn--gray-drk:hover {
+  background-color: #6b6b6b;
+}
+
+.btn__txt--inactive {
+  display: block;
+}
+.is_active .btn__txt--inactive {
+  display: none;
+}
+
+.btn__txt--active {
+  display: none;
+}
+.is_active .btn__txt--active {
+  display: block;
+}
+
+.button-set {
+  display: flex;
+  margin-top: 1px;
+}
+.button-set .btn, .button-set .button-slide-out__above {
+  display: block;
+  min-width: initial;
+  width: 50%;
+  padding: 0;
+}
+
+.button-3d {
+  perspective: 200px;
+}
+.button-3d.is_active > .btn, .button-3d.is_active > .button-slide-out__above {
+  background-color: #9c9c9c;
+}
+
+.button-3d__dropdown {
+  overflow: hidden;
+  transition: all 1s ease;
+  transform: rotateX(-91deg);
+  transform-origin: top;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+.is_active .button-3d__dropdown {
+  transform: rotateX(0deg);
+}
+.button-3d__dropdown .btn, .button-3d__dropdown .button-slide-out__above {
+  background-color: #b24a48;
+  transition: background-color 1s linear;
+}
+.is_active .button-3d__dropdown .btn, .is_active .button-3d__dropdown .button-slide-out__above {
+  background-color: #d65a57;
+}
+.button-3d__dropdown .btn--gray {
+  background-color: #7f7f7f;
+}
+.is_active .button-3d__dropdown .btn--gray {
+  background-color: #9c9c9c;
+}
+
+.button-slide-out {
+  position: relative;
+}
+
+.button-slide-out__middle {
+  position: relative;
+  z-index: 10;
+}
+
+.button-slide-out__above,
+.button-slide-out__below {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  transition: transform .5s ease;
+}
+
+.button-slide-out__above {
+  font-size: 14px;
+}
+.is_active .button-slide-out__above {
+  transform: translateY(-100%);
+}
+
+.is_active .button-slide-out__below {
+  transform: translateY(100%);
+}
+
+.button-slide-up {
+  position: relative;
+  overflow: hidden;
+  min-width: 120px;
+}
+.button-slide-up .button-set {
+  margin-top: 0;
+}
+
+.button-slide-up__button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform .5s ease;
+}
+.is_active .button-slide-up__button {
+  transform: translateY(-100%);
+}
+
+
+
+/* ==============================================================
+							Footer Area 
+================================================================= */
+
+.footer-area {
+    width: 100%;
+    float: left;
+    background-color: #273140;
+    color: #fff;
+    padding-top: 100px;
+}
+.footer-top {
+    margin-bottom: 100px;
+}
+.footer-item {
+    padding: 10px;
+}
+.footer-area input[type="email"] { background-color: rgba(255,255,255,0.8); }
+
+
+
+.input-group .btn,
+.input-group .form-control {
+  -moz-transition: none 1s;
+  -o-transition: none 1s;
+  -webkit-transition: none 1s;
+  transition: none 1s;
+}
+.input-group.default-input-group .form-control {
+border-right: 0 none;
+font-size: 10px;
+font-style: italic;
+    width: 180px;
+}
+.input-group.default-input-group .form-control + .input-group-btn .btn {
+ background: #1774D2;
+border-left: 0 none;
+height: 34px;
+margin-left: 0;
+    line-height: 3;
+}
+.input-group.default-input-group .form-control:focus {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.input-group.default-input-group .form-control:focus + .input-group-btn .btn {
+  outline: 0;
+  border-color: #66afe9;
+}
+.input-group.prev-input-group {
+  width: 100%;
+}
+.input-group.prev-input-group .form-control {
+  float: right;
+  width: 87%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: 0;
+}
+.input-group.prev-input-group .form-control + span .btn {
+  border-top-left-radius: 4px;
+  border-width: 1px 0 1px 1px;
+  border-bottom-left-radius: 4px;
+}
+.input-group.prev-input-group .form-control:focus {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.input-group.prev-input-group .form-control:focus + .input-group-btn .btn {
+  outline: 0;
+  border-color: #66afe9;
+}
+.input-group.prev-input-group .input-group-btn {
+  float: left;
+  width: 13%;
+}
+.input-group.prev-input-group .input-group-btn .btn {
+  margin: 0;
+  width: 100%;
+  border-left: 1px solid #ccc;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group .input-group-btn .btn:hover {
+  border-color: #ccc;
+  background-color: inherit;
+}
+
+/**
+ * Go Button CSS
+ */
+ 
+.action {
+  position: relative;
+  overflow: hidden;  
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.action > span {
+    border-radius: 4px;
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    vertical-align: middle;
+ }
+ 
+    .action b {
+      padding: 0 12px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 13px;
+      font-weight: bold;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+      color: #fff;
+      line-height: 34px;
+    }
+		.action:active b { 
+      color: #fff; 
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35); 
+    }
+
+.action .act-indicator  {
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  margin: -8px 0 0 -6px;
+}
+
+.act-indicator.i-M-loader { 
+  width: 20px; 
+  height: 20px; 
+  margin: -12px 0 0 -10px; 
+}
+
+.action b { transition: opacity .2s ease-out; }
+
+.act-success b { transition-delay: 2.2s; }
+
+/* default state of icons */
+.action .act-indicator { top: -100%; }
+
+/* Move the spinner (slide in) and fade out the text */
+.act-loading b { opacity: .12; }
+.act-loading .act-indicator.i-M-loader {
+  top: 50%;
+  animation: loader .7s steps(8) infinite, slideInDown .4s both;
+}
+
+/* Move the feedback (success or error) */
+.act-success .i-accept {
+  top: 50%;
+  animation: slideInDown .78s forwards, slideOutDown .4s 2s forwards;
+}
+
+/* Move the spinner  (slide out) */
+.act-success .act-indicator.i-M-loader {
+	top: -100%;
+	animation: loader .7s steps(8) infinite, slideOutDown .45s .45s both;
+}
+
+/* Icons */
+[class*=i-] {
+  display: inline-block;
+  vertical-align: middle;
+  background: url(http://cl.ly/I3jr/sprite.png) no-repeat left top;
+  font: 0/0 a;
+  color: transparent;
+  width: 16px;
+  height: 16px;
+}
+
+[class*=i-M] { width: 20px; height: 20px; }
+
+.i-M-loader {
+  background: url(http://cl.ly/I3jr/sprite.png) no-repeat;
+  animation: loader .7s steps(8) infinite;
+}
+.i-accept { background-position: -77px -149px; }
+
+
+/* Keyframes declarations */
+@keyframes slideInDown {
+  0%   { top: -100%; }
+  60%  { top: -50%; }
+  80%  { top: 65%; }
+  100% { top: 50%; }
+} 
+
+ @keyframes slideInUp {
+  0%   { top: 250%; }
+  60%  { top: 150%; }
+  80%  { top: 35%; }
+  100% { top: 50%; }
+}
+
+@keyframes slideOutDown {
+  0%   { top: 50%; }
+  100% { top: 150%; }
+}
+
+@keyframes slideOutUp {
+  0%   { top: 50%; }
+  100% { top: -150%; }
+}
+
+@keyframes loader { 
+	from { background-position: 0px -408px; } 
+  to { background-position: -192px -408px; }
+}
+
+/**
+ * END Go Button CSS
+ */
+ 
+
+.footer-list {
+    padding: 0;
+}
+.footer-list li {
+    display: inline-block;
+    float: left;
+    padding: 5px 20px 5px 0;
+}
+.footer-list li a:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+.footer-list a .fa {
+  font-size: 20px;
+}
+.footer-copyright {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
